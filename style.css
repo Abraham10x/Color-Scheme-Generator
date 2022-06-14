@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background: #1f2937;
+  padding: 2rem 1.5rem;
+}
+
+input {
+  height: 3.6rem;
+  width: 5rem;
+}
+
+select {
+  font-family: "Inter", sans-serif;
+  background: #1f293a;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  text-align: left;
+  color: #ffffff;
+  padding: 0.7rem 1rem;
+  margin: 0 1.5rem;
+  width: 25rem;
+  font-size: 1.6rem;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  background: #3d4b60;
+  border-radius: 0.4rem;
+  border: 0;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.1rem;
+  text-transform: capitalize;
+}
+
+button:hover {
+  background: #556885;
+  transition: background 0.34s;
+}
+
+main {
+  display: flex;
+}
+
+.color-bar {
+  width: 9.89rem;
+  background: #1f2937;
+}
+
+.color {
+  height: 38rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #d5d4d8;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
+.color-one {
+  background: #f55a5a;
+}
+.color-two {
+  background: #2b283a;
+}
+.color-three {
+  background: #fbf3ab;
+}
+.color-four {
+  background: #aad1b6;
+}
+.color-five {
+  background: #a626d3;
+}
